@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="container" style="padding-bottom: 20px;">
+        <section>
+
+            <nav class="navbar navbar-expand-lg bg-body-secondary">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">InfoWeb</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+
+        </section>
+        <div class="d-flex align-items-center justify-content-center mt-2">
+            <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+                <label class="btn btn-outline-primary" for="btnradio1">Home</label>
+
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btnradio2">Contact Us</label>
+
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btnradio3">About us</label>
+
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btnradio4">Servies</label>
+
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio5" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btnradio5">Blog</label>
+            </div>
+        </div>
+
+
+
+
+
+        <div id="carouselExample" class="carousel slide mt-2">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://img.freepik.com/free-vector/blank-meadow-landscape-scene-night-time_1308-56336.jpg?t=st=1746004779~exp=1746008379~hmac=f5cce894fdfed13f66b1ba0a82ec1bd45efba972cb49c408a4c316a3bdcebc21&w=1380"
+                        class="d-block w-100" height="500px" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://img.freepik.com/free-photo/fuji-mountain-kawaguchiko-lake-morning-autumn-seasons-fuji-mountain-yamanachi-japan_335224-102.jpg?t=st=1746005086~exp=1746008686~hmac=7068efd7ddbfb089f0792ea3ecb0dcba28187801f86aff0997b66c9431ad910e&w=1380"
+                        class="d-block w-100" height="500px" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://img.freepik.com/free-photo/fuji-mountain-kawaguchiko-lake-morning-autumn-seasons-fuji-mountain-yamanachi-japan_335224-102.jpg?t=st=1746005086~exp=1746008686~hmac=7068efd7ddbfb089f0792ea3ecb0dcba28187801f86aff0997b66c9431ad910e&w=1380"
+                        class="d-block w-100" height="500px" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <h3 class="my-2 p-2 bg-primary text-white text-center">Details about The Divisions</h3>
+            </div>
+
+        </div>
+        <div class="accordion" id="accordionExample">
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseDhaka" aria-expanded="true" aria-controls="collapseDhaka">
+                        📍 Dhaka Division
+                    </button>
+                </h2>
+                <div id="collapseDhaka" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Dhaka is the capital division and administrative heart of Bangladesh. It’s the most populous and
+                        economically vibrant region, hosting the capital city, Dhaka. Major industries include textiles,
+                        finance, and <span class="badge text-bg-primary">technology.</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseChattogram" aria-expanded="false" aria-controls="collapseChattogram">
+                        🌊 Chattogram Division
+                    </button>
+                </h2>
+                <div id="collapseChattogram" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Chattogram is home to Bangladesh’s largest seaport. It’s known for its hills, ethnic diversity,
+                        and the scenic Cox’s Bazar beach—the world’s longest natural sandy sea beach.
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseRajshahi" aria-expanded="false" aria-controls="collapseRajshahi">
+                        🍋 Rajshahi Division
+                    </button>
+                </h2>
+                <div id="collapseRajshahi" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Rajshahi is known as the “Silk City” and is famous for its mangoes, education, and
+                        archaeological heritage. It houses sites like Paharpur and Mahasthangarh.
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseKhulna" aria-expanded="false" aria-controls="collapseKhulna">
+                        🌳 Khulna Division
+                    </button>
+                </h2>
+                <div id="collapseKhulna" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Khulna is known for the Sundarbans mangrove forest and the Royal Bengal Tiger. It also features
+                        shipbuilding, shrimp farming, and the Rupsha River.
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseBarishal" aria-expanded="false" aria-controls="collapseBarishal">
+                        🚤 Barishal Division
+                    </button>
+                </h2>
+                <div id="collapseBarishal" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Barishal is a riverine region often called the "Venice of the East". It’s known for floating
+                        guava markets, rice production, and scenic beauty.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseSylhet" aria-expanded="false" aria-controls="collapseSylhet">
+                        🍃 Sylhet Division
+                    </button>
+                </h2>
+                <div id="collapseSylhet" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Sylhet is known for its tea gardens, Haor wetlands, and spiritual significance. A large number
+                        of expatriates in the UK originate from Sylhet.
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseRangpur" aria-expanded="false" aria-controls="collapseRangpur">
+                        🌾 Rangpur Division
+                    </button>
+                </h2>
+                <div id="collapseRangpur" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Rangpur is rich in agriculture and has a strong rural economy. Historical sites like Tajhat
+                        Palace add cultural value to the region.
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseMymensingh" aria-expanded="false" aria-controls="collapseMymensingh">
+                        🏞️ Mymensingh Division
+                    </button>
+                </h2>
+                <div id="collapseMymensingh" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Mymensingh is the newest division of Bangladesh. It is known for Bangladesh Agricultural
+                        University and a strong presence in fisheries and farming.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="liveAlertPlaceholder"></div>
+        <button type="button" class="btn btn-primary my-2" id="liveAlertBtn">Show live alert</button>
+        <div class="alert alert-dark" role="alert">
+            A simple dark alert—check it out!
+        </div>
+
+
+
+        <section class="my-5">
+            <h3 class="text-center mb-4">OUT PRODUCTS</h3>
+            <div class="row">
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://img.freepik.com/free-photo/party-space-ready-online-celebration_23-2149347240.jpg?t=st=1746004348~exp=1746007948~hmac=188f480f2094f5d30b6585fd1f992d1bec46e169b346b8ac761744d78f54aaaa&w=1380"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Keyboard</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://img.freepik.com/free-photo/purple-computer-mouse_1260-11.jpg?t=st=1746004413~exp=1746008013~hmac=992deb5a81c7fc106978c594895ae753238d00a2913a7e2822233d45434038a4&w=1380"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Mouse</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://img.freepik.com/free-vector/computer_53876-35112.jpg?t=st=1746004437~exp=1746008037~hmac=b41aecead815e9b839c1df72b41a80ac3f7b6e437247c1467a31ddd3b3c4cca3&w=826"
+                            class="card-img-top" alt="..." height="190">
+                        <div class="card-body">
+                            <h5 class="card-title">Monitor</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+           
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                Launch static backdrop modal
+            </button>
+
+           
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            I will not close if you click outside of me. Don't even try to press escape key.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Understood</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
