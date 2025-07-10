@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap Buttons Example</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<div class="container mt-5 text-center">
+  <h1 class="mb-4">Next Page</h1>
+
+  <div>
+    <p id="paraID">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius aliquam cum tempora blanditiis quisquam recusandae. Minima sed tenetur ipsa facere voluptatem ex, officia veniam, deserunt id voluptatibus consectetur esse placeat?</p>
+  </div>
+
+  <div class="mt-4">
+    <button class="btn btn-primary me-2" onclick="addStyle()">Add Style</button>
+    <button class="btn btn-success me-2" onclick="removeStyle()">Remove Style</button>
+  </div>
+  <div class="d-flex justify-content-center mt-4 gap-5">
+     <button class="btn btn-outline-info" onclick="prevPage()">Prev</button>
+    <button class="btn btn-outline-info" onclick="nextPage()">Next</button>
+  </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="../js/script.js"></script>
+</body>
+</html>
