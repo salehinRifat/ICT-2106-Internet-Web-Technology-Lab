@@ -1,7 +1,9 @@
 let paraID = document.getElementById("paraID");
+let removeID = document.getElementById("removeStyle");
 function addStyle(){
-   paraID.classList.add("paraStyle");
+   paraID.classList.toggle("paraStyle");
 }
+removeID.addEventListener("click", removeStyle);
 function removeStyle(){
     paraID.classList.remove("paraStyle");
 }
